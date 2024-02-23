@@ -3,13 +3,69 @@
 <html>
   <head>
     <title>Sample Web Page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+    .flex-container {
+      display: flex;
+
+}
+
+    .flex-container > div {
+      background-color: #f1f1f1;
+      margin: 10px;
+      padding: 30px;
+      font-size: 30px;
+        }
+
+    .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+ }
+    body {
+      background-image: url('yellow.jfif');
+}
+    </style>
+
   </head>
 
+
   <body>
-    <h1>This is a heading</h1>
+  <div class="topnav">
+    <a class="active" href="#home">Home</a>
+    <a href="#Background">Background</a>
+    <a href="#Skills">Skilss</a>
+    <a href="#about">Autobiography</a>
+    <img src="pic3.jpg" alt="Your Logo" />
+  </div>
+
+    <h1>PREVIOUS PROJECTS</h1>
+
+ <div class="flex-container">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>  
+ </div>
+
+    <img src="me.jpg" alt="my picture" style="width:500px;height:600px; />
     <p>This is the first paragraph of text</p>
     <hr />
     <p>This is the second paragraph of text</p>
+    <div class="flex-container">
+    <div>
+        <h1>Here lies my picture</h1>
+        <p>This is a paragraph</p>
+    </div>
+
+    <div class="footer">
+        <p>Footer</p>
+    </div>
+</div>
+
   </body>
 
 </html>
