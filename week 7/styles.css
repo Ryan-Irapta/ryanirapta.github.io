@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+#form-section {
+    margin-bottom: 20px;
+}
+
+#food-form input {
+    margin: 5px;
+}
+
+.food-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.food-card img {
+    max-width: 100px;
+    margin-right: 10px;
+}
+
+.food-card button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
